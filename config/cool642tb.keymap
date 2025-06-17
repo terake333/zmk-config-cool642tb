@@ -75,7 +75,9 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_KATAKANAHIRAGANA  &lt 1 SPACE           &lt 2 SPACE            &kp BACKSPACE                                &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>, <&inc_dec_kp 0 0>;
+            sensor-bindings =
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
+                <&inc_dec_kp 0 0>;
         };
 
         FUNCTION {

@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 3   /* ← 好みで 3〜5 に調整 */
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4

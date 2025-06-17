@@ -1,7 +1,8 @@
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 3   /* ← 好みで 3〜5 に調整 */
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 3   /* ← 好みで 3〜5 に調整 */
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4
@@ -96,10 +97,10 @@
 
         NUM {
             bindings = <
-&kp F1       &kp F2   &kp F3             &kp F4         &kp F5                                                   &kp F6          &kp F7          &kp F8          &kp F9           &kp F10
-&kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON      &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
-&kp Z        &kp X    &kp C              &kp V          &kp B          &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)   &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
-&kp RSHIFT   &kp TAB  &kp LEFT_WIN       &kp PAGE_UP    &kp PAGE_DOWN  &kp UNDERSCORE  &none                     &bt BT_CLR_ALL                                                   &kp LEFT_SHIFT
+&kp F1       &kp F2   &kp F3             &kp F4           &kp F5                                                       &kp F6          &kp F7          &kp F8          &kp F9           &kp F10
+&kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON    &kp COLON          &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT        &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT        &kp ENTER
+&kp Z        &kp X    &kp C              &kp V            &kp B              &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)   &kp RG(SPACE)   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
+&kp RSHIFT   &kp TAB  &kp LEFT_WIN       &kp K_SCROLL_UP  &kp K_SCROLL_DOWN  &kp UNDERSCORE  &none                     &bt BT_CLR_ALL                                                   &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;

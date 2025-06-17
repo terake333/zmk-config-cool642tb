@@ -99,7 +99,7 @@
 &kp RSHIFT   &kp TAB  &kp LEFT_WIN       &kp PAGE_UP    &kp PAGE_DOWN  &kp UNDERSCORE  &none                     &bt BT_CLR_ALL                                                   &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         ARROW {
